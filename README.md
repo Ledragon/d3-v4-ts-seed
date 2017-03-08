@@ -1,0 +1,1 @@
+This repo is a simple seed for d3 v4 projects using TypeScript.
