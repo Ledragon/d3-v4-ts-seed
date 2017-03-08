@@ -1,0 +1,25 @@
+{
+  "name": "vp-stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all --parallel serve tsc:w",
+    "serve": "live-server src",
+    "tsc:w": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/d3": "^4.6.0",
+    "live-server": "^1.2.0",
+    "npm-run-all": "^4.0.2",
+    "rollup": "^0.41.4",
+    "typescript": "^2.2.1"
+  },
+  "dependencies": {
+    "d3": "^4.7.1",
+    "ldd3": "^0.1.5"
+  }
+}

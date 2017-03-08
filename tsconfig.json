@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "target": "es5",
+        "sourceMap": true,
+        "declaration": true,
+        "module": "es2015"
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
