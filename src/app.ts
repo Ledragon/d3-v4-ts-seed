@@ -4,7 +4,9 @@ d3.select('body')
     .append('svg')
     .attr('width', 960)
     .attr('height', 480)
-    .append('rect')
-    .attr('width', 400)
-    .attr('height', 300)
+    .append('circle')
+    .attr('cx', 240)
+    .attr('cy', 300)
+    .attr('r', 150)
     .style('fill', 'lightblue');
+

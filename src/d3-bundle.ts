@@ -1,1 +1,1 @@
-export * from 'd3-selection';
+export { select, Selection } from 'd3-selection';

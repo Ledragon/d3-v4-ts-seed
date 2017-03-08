@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm-run-all --parallel serve tsc:w",
-    "serve": "live-server src",
+    "start": "npm-run-all --parallel serve tsc:w rollup:w",
+    "serve": "live-server src --watch=src/**/*.html,src/bundle.js,src/**/*.css",
     "tsc:w": "tsc -w",
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "rollup:w": "rollup -c -w"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,7 @@
     "npm-run-all": "^4.0.2",
     "rollup": "^0.41.4",
     "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-watch": "^3.2.2",
     "typescript": "^2.2.1"
   },
   "dependencies": {
