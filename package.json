@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npm-run-all --parallel serve tsc:w",
     "serve": "live-server src",
-    "tsc:w": "tsc -w"
+    "tsc:w": "tsc -w",
+    "rollup": "rollup -c"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
     "live-server": "^1.2.0",
     "npm-run-all": "^4.0.2",
     "rollup": "^0.41.4",
+    "rollup-plugin-node-resolve": "^2.0.0",
     "typescript": "^2.2.1"
   },
   "dependencies": {
