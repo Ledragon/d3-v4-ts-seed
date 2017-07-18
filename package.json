@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prestart": "tsc && rollup -c",
     "start": "npm-run-all --parallel serve tsc:w rollup:w",
     "serve": "live-server src --watch=src/**/*.html,src/bundle.js,src/**/*.css",
     "tsc:w": "tsc -w",
